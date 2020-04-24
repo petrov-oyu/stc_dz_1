@@ -1,7 +1,8 @@
 # IDEA
 .idea/
 
-# build
+# gradle
+program/.gradle/
 program/build/
 
 # Compiled class file
