@@ -1,9 +1,9 @@
 # IDEA
-.idea/
+.idea/*
 
 # gradle
-program/.gradle/
-program/build/
+program/.gradle/*
+program/build/*
 
 # Compiled class file
 *.class
