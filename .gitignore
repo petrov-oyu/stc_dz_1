@@ -1,6 +1,9 @@
 # IDEA
 .idea/
 
+# build
+program/build/
+
 # Compiled class file
 *.class
 
