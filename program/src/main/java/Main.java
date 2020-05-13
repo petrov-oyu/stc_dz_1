@@ -27,8 +27,9 @@ public class Main {
 		if (sqrtValue.isNaN()) {
 			throw new Exception("value " + value + " less than zero");
 		}
-
-		if (Math.round(sqrtValue * sqrtValue) == value) {
+		
+		roundedSqrtValue = Math.round(sqrtValue);
+		if (roundedSqrtValue * roundedSqrtValue == value) {
 			System.out.println(value);
 		}
 	}
